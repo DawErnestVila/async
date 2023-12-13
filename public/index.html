@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peticions a l'API de Països</title>
+  </head>
+  <body>
+    <h1>Peticions a l'API de Països</h1>
+
+    <label for="country">Introdueix un país:</label>
+    <input type="text" id="country" name="country" required />
+
+    <button onclick="ferPeticioAmbPromesa()">Fer petició amb Promesa</button>
+    <button onclick="ferPeticioAmbAsyncAwait()">
+      Fer petició amb Async/Await
+    </button>
+
+    <div id="resposta"></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
